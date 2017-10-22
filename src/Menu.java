@@ -18,13 +18,13 @@ public class Menu {
                     case 1:
                         input_path = new Scanner(System.in);
                         System.out.print("Path to the people file: ");
-                        operations.upload_people(input_path.nextLine());
+                        operations.add_people(input_path.nextLine());
                         DefaultMeniuText();
                         break;
                     case 2:
                         input_path = new Scanner(System.in);
                         System.out.print("Path to the friends file: ");
-                        operations.upload_friends(input_path.nextLine());
+                        operations.add_friends(input_path.nextLine());
                         DefaultMeniuText();
                         break;
                     case 3:
@@ -68,7 +68,7 @@ public class Menu {
 
     }
 
-    public static void DefaultMeniuText(){
+    public void DefaultMeniuText(){
         System.out.println("\n************Social Network Meniu***********");
         System.out.println("[1] To upload the people file");
         System.out.println("[2] To upload the friend file");

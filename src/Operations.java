@@ -9,44 +9,35 @@ public class Operations {
     public static List<String> friends_data = new ArrayList<String>();
 
     public Operations() {
-        upload_people("People");
-        upload_friends("Friends");
+        //This constructor is only for testing part. It automatically upload people and friends data to the lists.//
+        add_people("People");
+        add_friends("Friends");
     }
 
-    public void upload_people(String path) {
+    public void add_people(String path) {
         try {
             Scanner sc_people = new Scanner(new File(path));
             String people_header = sc_people.nextLine();
-            people_data = addPeople(sc_people);
+            while (sc_people.hasNextLine()) {
+                people_data.add(sc_people.nextLine());
+            }
         } catch (IOException e) {
             System.out.println("\n" + path + " this path doesen't exist. Try again and make sure that path is written correctly");
         }
     }
 
-    public void upload_friends(String path) {
+    public void add_friends(String path) {
         try {
             Scanner sc_friends = new Scanner(new File(path));
             String friends_header = sc_friends.nextLine();
-            friends_data = addFriends(sc_friends);
+            while (sc_friends.hasNextLine()) {
+                friends_data.add(sc_friends.nextLine());
+            }
         } catch (IOException e) {
             System.out.println("\n" + path + " this path doesen't exist. Try again and make sure that path is written correctly");
         }
     }
 
-
-    public List<String> addPeople(Scanner sc) {
-        while (sc.hasNextLine()) {
-            people_data.add(sc.nextLine());
-        }
-        return people_data;
-    }
-
-    public List<String> addFriends(Scanner sc) {
-        while (sc.hasNextLine()) {
-            friends_data.add(sc.nextLine());
-        }
-        return friends_data;
-    }
 
     public void print(List<String> data) {
             if (data.size() > 0) {
