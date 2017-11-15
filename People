@@ -1,6 +1,5 @@
 idperson,name,lastname,birthdate,gender,birthplace,home,studiedat,workplaces,films,groupcode
 Gonz01,Gonzalo,Gonzalez,12-09-1982,male,Valencia,Lasarte,Calasanz;Informatika,Valencia;Vitoria;Donostia,Casablanca;Avatar,G6101
-Arbuzas01,Arbuzas,Gonzalez,12-09-1982,male,Valencia,Lasarte,Calasanz;Informatika,Valencia;Vitoria;Donostia,Casablanca;Avatar,G6101
 Mik01,Mikel,Dalmau,25-03-1991,male,Galdakao,Galdakao,Elesalde;Informatika,Galdakao,Red;The A-Team,G6101
 Gor01,Gorka,Vitoria,14-02-1988,male,Donostia,Donostia,Zurriola;Informatika,Donostia;Belfast,Jackass 3D;Sherlock Holmes,G6101
 Eid01,Eider,Iturralde,15-05-1989,female,Donostia,Donostia,Lizeo;Deusto,Donostia;Usurbil,The Tourist;Avatar,G6101
@@ -55,3 +54,4 @@ Arantza22,Aranzazu,Bidaurreta,3-3-1833,female,Larraitz,Amezketa,Tolosa,Paris;Nic
 Liza99,Elizabeth,Taylor-Gardner,5-5-1935,female,Rome,Boston,New York,Paris,Hold High the Torch;The White Cliffs of Dover;Cleopatra,G0001
 Agnetta33,Agnetta,Bensson,1-1-1940,female,Sweden,London,Stockholm,Stockholm;London;Oslo;Paris,The Intouchables;To Kill a Mockingbird;Reservoir Dogs;Cinema Paradiso,G0001
 Gisella11,Gisella,Fabricci,3-3-1993,female,Torino,Donostia,Rome;UPV/EHU,Rome;Madrid;Donostia,The Lion King;The Third Man;Star Wars: Episode VI - Return of the Jedi;Princess Mononoke,G0001
+Dov326,Dovido,dovidela,12-09-1998,male,Valencia,Lasarte,Calasanz;Informatika,Valencia;Vitoria;Donostia,Casablanca;Avatar,G6101

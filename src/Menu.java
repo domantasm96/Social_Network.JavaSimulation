@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,14 +39,14 @@ public class Menu {
                     case 5:
                         input_path = new Scanner(System.in);
                         System.out.print("Enter a surname: ");
-                        String userID = operations.getUserID(input_path.nextLine());
-                        System.out.println(operations.getFriendsByID(userID));
+                        //String userID = operations.getUserID(input_path.nextLine());
+                        operations.getFriendsByID(operations.getUserID(input_path.nextLine()));
                         DefaultMeniuText();
                         break;
                     case 6:
                         input_path = new Scanner(System.in);
                         System.out.print("Enter a city name: ");
-                        System.out.println(operations.getPeopleByCity(input_path.nextLine()));
+                        operations.getPeopleByCity(input_path.nextLine());
                         DefaultMeniuText();
                         break;
                     case 7:
@@ -55,6 +56,14 @@ public class Menu {
                         operations.print(operations.FilterAndSortData(dates));
                         DefaultMeniuText();
                         break;
+                    case 8:
+                        operations.ReadResidentialFile();
+                        DefaultMeniuText();
+                        break;
+                    case 9:
+                        operations.UsersProfiles();
+                        DefaultMeniuText();
+                        break;
                     default:
                         System.out.println("An unknow error has occured.");
                 }
@@ -62,6 +71,8 @@ public class Menu {
             catch(NumberFormatException e){
                 System.out.println("wrong");
             } catch (ParseException e) {
+                e.printStackTrace();
+            } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
         }
@@ -77,6 +88,8 @@ public class Menu {
         System.out.println("[5] Retrieve friends by surname");
         System.out.println("[6] Retrieve all people who born in the same city");
         System.out.println("[7] Retrieve all people who born between D1 and D2 dates and sort data by birthday, surname, name");
+        System.out.println("[8] Retrieve hometown of residential.txt and find all people from the same towns");
+        System.out.println("[9] Users with the same profiles");
         System.out.println("[0] To exit the program");
     }
 }
