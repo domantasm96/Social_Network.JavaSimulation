@@ -66,7 +66,7 @@ public class Menu {
                         break;
                     case 10:
                         input_path = new Scanner(System.in);
-                        System.out.print("Enter two people User_ID's: ");
+                        System.out.print("Enter two people User_ID's(userid1,userid2): ");
                         operations.CreateGraph(input_path.nextLine());
                         DefaultMeniuText();
                         break;
@@ -91,12 +91,12 @@ public class Menu {
         System.out.println("[2] To upload the friend file");
         System.out.println("[3] Print all People");
         System.out.println("[4] Print all Friends");
-        System.out.println("[5] Retrieve friends by surname");
+        System.out.println("[5] Retrieve friends by surname.");
         System.out.println("[6] Retrieve all people who born in the same city");
-        System.out.println("[7] Retrieve all people who born between D1 and D2 dates and sort data by birthday, surname, name");
+        System.out.println("[7] Retrieve all people who born between D1 and D2 dates and sort data by birthday, surname, name.");
         System.out.println("[8] Retrieve hometown of residential.txt and find all people from the same towns");
         System.out.println("[9] Users with the same profiles");
-        System.out.println("[10] Shortest relate chain of two people");
+        System.out.println("[10] Shortest relate chain of two people.");
         System.out.println("[0] To exit the program");
     }
 }

@@ -71,7 +71,7 @@ public class Operations {
     }
 
     /*
-    Method print is
+    Method print all data which contains List from method argument.
      */
 
     public void print(List<String> data) {
@@ -138,6 +138,7 @@ public class Operations {
         }
         String person_id;
         String person_lastname;
+        //Printing all userID's friends.
         for (int i = 0; i < people_data.size(); i++) {
             for (int j = 0; j < list.size(); j++) {
 
@@ -151,13 +152,16 @@ public class Operations {
             }
         }
     }
-
+    //This method is used for Graph creation. When person userID is given, all friends from friend_data list are returned as a list.
+    //IMPORTANT: People saved as an index in the people_data list, because the Graph is created using people index representation.
     private List<Integer> GetFriendsListByID(String user_id){
         List<Integer> friend_list = new ArrayList<Integer>();
         int person_number;
         for(int i = 0; i < friends_data.size(); i++){
+
             String first_id = friends_data.get(i).split(",")[0];
             String second_id = friends_data.get(i).split(",")[1];
+
             if (first_id.equals(user_id)) {
                 person_number = getPersonNumber(second_id);
                 friend_list.add(person_number);
@@ -166,6 +170,7 @@ public class Operations {
         return friend_list;
     }
 
+    //Gets person index in the person_data list and returns it to the GetFriendListByID function.
     private int getPersonNumber(String user_id){
         for(int i = 0; i < people_data.size(); i++){
             String person_id = people_data.get(i).split(",")[0];
@@ -176,6 +181,7 @@ public class Operations {
         return -1;
     }
 
+    //Adds all people from the same city to the list and then prints out.
     public void getPeopleByCity(String city) {
         List<String> cityList = new ArrayList<String>();
         String person_birthplace;
@@ -198,6 +204,10 @@ public class Operations {
         }
     }
 
+    //Filter people by date and sorts in this order:
+    //1. Birthplace
+    //2. Name
+    //3. Surname
     public List<String> FilterAndSortData(String date) throws ParseException {
         List<String> list = new ArrayList<String>();
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
@@ -247,9 +257,11 @@ public class Operations {
         String person_lastname;
         String person_studied;
 
+        //Reading residential.txt file
         while (sc.hasNextLine()) {
             residential_data.add(sc.nextLine());
         }
+        //Searching people ID and hometown from people in residential.txt file.
         for(int i=0; i < residential_data.size(); i++){
             for(int j = 0; j < people_data.size(); j++){
 
@@ -264,10 +276,14 @@ public class Operations {
             }
         }
         System.out.println();
-        HashSet home = new HashSet(hometowns);
+        //Making an unique set of hometowns of the people in the residential.txt file.
+        hometowns = new ArrayList<String>(new HashSet<String>(hometowns));
+        System.out.println(hometowns);
         for(int i = 0; i < people_data.size();i++){
-            for(int j=0 ; j<home.size(); j++){
+            for(int j=0 ; j<hometowns.size(); j++){
+
                 person_birthplace = people_data.get(i).split(",")[5];
+
                 if(person_birthplace.equals(hometowns.get(j))){
 
                     person_name = people_data.get(i).split(",")[1];
@@ -294,18 +310,24 @@ public class Operations {
                 userID = people_data.get(j).split(",")[0];
                 films_profile = "";
                 String[] films_list = people_data.get(j).split(",")[9].split(";");
+
+                //Each person film profile is sorted in the lexicographic order.
                 Arrays.sort(films_list);
 
+                //Adding all splitted films from film profile to the string
                 for(int k = 0; k < films_list.length; k++){
                     films_profile += films_list[k] + ";";
                 }
 
+                //Deleting ";" symbol from the end of the string.
                 films_profile = films_profile.substring(0, films_profile.length() - 1);
 
                 if(films_profile.equals(films.get(i))){
                     temp.add(userID);
                 }
             }
+
+            //If there are more than 2 users, who have the same profile, print them out.
             if(temp.size() >= 2){
                 System.out.println("***************"+films.get(i)+"***************");
                 for(int j = 0; j < temp.size(); j++){
@@ -317,6 +339,7 @@ public class Operations {
         }
     }
 
+    //Get unique film profiles set. Also each film profile films are ordered in lexicographic order.
     public List getAllFilmsNames(){
         Set<String> films = new HashSet();
         String films_profile;
