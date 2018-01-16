@@ -64,6 +64,12 @@ public class Menu {
                         operations.UsersProfiles();
                         DefaultMeniuText();
                         break;
+                    case 10:
+                        input_path = new Scanner(System.in);
+                        System.out.print("Enter two people User_ID's: ");
+                        operations.CreateGraph(input_path.nextLine());
+                        DefaultMeniuText();
+                        break;
                     default:
                         System.out.println("An unknow error has occured.");
                 }
@@ -90,6 +96,7 @@ public class Menu {
         System.out.println("[7] Retrieve all people who born between D1 and D2 dates and sort data by birthday, surname, name");
         System.out.println("[8] Retrieve hometown of residential.txt and find all people from the same towns");
         System.out.println("[9] Users with the same profiles");
+        System.out.println("[10] Shortest relate chain of two people");
         System.out.println("[0] To exit the program");
     }
 }
