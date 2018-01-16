@@ -15,8 +15,7 @@ public class Operations {
     public static Graph graph;
 
     public Operations() {
-        add_people("People");
-        add_friends("Friends");
+
     }
 
     /*
@@ -208,6 +207,7 @@ public class Operations {
     //1. Birthplace
     //2. Name
     //3. Surname
+    //Argument date format should be "dd-MM-yyyy dd-MM-yyyy"; e.q: "7-1-1940 7-1-1999"
     public List<String> FilterAndSortData(String date) throws ParseException {
         List<String> list = new ArrayList<String>();
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
@@ -276,9 +276,10 @@ public class Operations {
             }
         }
         System.out.println();
+
         //Making an unique set of hometowns of the people in the residential.txt file.
         hometowns = new ArrayList<String>(new HashSet<String>(hometowns));
-        System.out.println(hometowns);
+
         for(int i = 0; i < people_data.size();i++){
             for(int j=0 ; j<hometowns.size(); j++){
 
@@ -376,10 +377,14 @@ public class Operations {
                 graph.addEdge(i, edges_list.get(j));
             }
         }
+        System.out.println();
+        System.out.println("*************************GRAPH REPRESENTATION*************************\n");
         System.out.print(graph);
+        System.out.println();
+        System.out.println("**********************************************************************\n");
 
         int s = first_number;
         BreadthFirstPaths bfs = new BreadthFirstPaths(graph, s);
-        System.out.println(bfs.pathTo(second_number));
+        System.out.println("Result: "+bfs.pathTo(second_number));
     }
 }

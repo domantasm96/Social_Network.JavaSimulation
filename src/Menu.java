@@ -51,7 +51,7 @@ public class Menu {
                         break;
                     case 7:
                         input_path = new Scanner(System.in);
-                        System.out.print("Enter D1 and D2 dates: ");
+                        System.out.print("Enter D1 and D2 dates (dd-MM-yyyy dd-MM-yyyy): ");
                         String dates = input_path.nextLine();
                         operations.print(operations.FilterAndSortData(dates));
                         DefaultMeniuText();

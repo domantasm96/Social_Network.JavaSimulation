@@ -64,7 +64,7 @@ public class Graph {
         s.append(V + " vertices, " + E + " edges " + NEWLINE);
         for (int v = 0; v < V; v++) {
             vertex_id = Operations.people_data.get(v).split(",")[0];
-            s.append(v + 1  + ") " + vertex_id + ": ");
+            s.append(v  + ". " + vertex_id + ": ");
             for (int w : adj[v]) {
                 edge_id = Operations.people_data.get(w).split(",")[0];
                 s.append(edge_id + " ");
