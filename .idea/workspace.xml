@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a286e6-aaf2-4fca-91b1-305842f37fd3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HEAD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/description" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/applypatch-msg.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/commit-msg.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/post-update.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/pre-applypatch.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/pre-commit.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/pre-push.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/pre-rebase.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/pre-receive.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/prepare-commit-msg.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/update.sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/info/exclude" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diagrams/Menu.dia" afterPath="$PROJECT_DIR$/Diagrams/Menu.dia" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.uml" afterPath="$PROJECT_DIR$/Main.uml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Social_Network/Menu.class" afterPath="$PROJECT_DIR$/out/production/Social_Network/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Social_Network/Operations$1.class" afterPath="$PROJECT_DIR$/out/production/Social_Network/Operations$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Social_Network/Operations.class" afterPath="$PROJECT_DIR$/out/production/Social_Network/Operations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/residential.txt" afterPath="$PROJECT_DIR$/residential.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu.java" afterPath="$PROJECT_DIR$/src/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Operations.java" afterPath="$PROJECT_DIR$/src/Operations.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="18">
+              <caret line="42" column="79" lean-forward="false" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,35 +37,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="Operations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Operations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="3528">
+              <caret line="209" column="86" lean-forward="false" selection-start-line="209" selection-start-column="86" selection-end-line="209" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
+                <element signature="e#2545#2546#0" expanded="true" />
+                <element signature="e#2630#2631#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Operations.java">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="368" column="33" lean-forward="true" selection-start-line="368" selection-start-column="33" selection-end-line="368" selection-end-column="33" />
+            <state relative-caret-position="2664">
+              <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#334#342#0" expanded="true" />
-                <element signature="e#453#461#0" expanded="true" />
-                <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
-                <element signature="e#2606#2607#0" expanded="true" />
-                <element signature="e#2691#2692#0" expanded="true" />
-                <element signature="e#4361#4369#0" expanded="true" />
-                <element signature="e#6025#6034#0" expanded="true" />
-                <element signature="e#7013#7021#0" expanded="true" />
-                <element signature="e#7865#7873#0" expanded="true" />
-                <element signature="e#9201#9209#0" expanded="true" />
-                <element signature="e#9259#9267#0" expanded="true" />
-                <element signature="e#11227#11235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,18 +77,18 @@
       <file leaf-file-name="BreadthFirstPaths.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BreadthFirstPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-726">
+            <state relative-caret-position="396">
               <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+            <state relative-caret-position="1296">
+              <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -129,8 +97,8 @@
       <file leaf-file-name="People" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/People">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="47" />
+            <state relative-caret-position="774">
+              <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -143,28 +111,20 @@
               <ID>JAVA</ID>
               <OriginalElement>Main</OriginalElement>
               <nodes>
-                <node x="404.6857954545454" y="0.0">Bag.Node</node>
                 <node x="0.0" y="388.0">Queue.ListIterator</node>
+                <node x="404.6857954545454" y="0.0">Bag.Node</node>
                 <node x="341.80075757575753" y="652.5">Graph</node>
                 <node x="277.9" y="140.0">Bag.ListIterator</node>
                 <node x="115.9" y="164.5">Queue.Node</node>
                 <node x="344.80075757575753" y="339.0">Bag</node>
                 <node x="97.73579545454544" y="989.0">BreadthFirstPaths</node>
                 <node x="258.22916666666663" y="1878.0">Menu</node>
+                <node x="277.72916666666663" y="2009.0">Main</node>
                 <node x="58.98579545454544" y="616.0">Queue</node>
                 <node x="203.22916666666663" y="1313.0">Operations</node>
-                <node x="277.72916666666663" y="2009.0">Main</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="Operations" target="Graph">
-                  <point x="87.25000000000006" y="-257.5" />
-                  <point x="464.9791666666667" y="1293.0" />
-                  <point x="474.75" y="1293.0" />
-                  <point x="474.75" y="959.0" />
-                  <point x="493.67575757575753" y="959.0" />
-                  <point x="30.375" y="125.0" />
-                </edge>
                 <edge source="Queue.Node" target="Queue">
                   <point x="56.80000000000001" y="40.0" />
                   <point x="243.70000000000002" y="289.0" />
@@ -179,65 +139,11 @@
                   <point x="404.05075757575753" y="319.0" />
                   <point x="-59.25" y="-113.5" />
                 </edge>
-                <edge source="Graph" target="Bag">
-                  <point x="81.0" y="-125.0" />
-                  <point x="544.3007575757575" y="596.0" />
-                  <point x="542.3007575757575" y="596.0" />
-                  <point x="79.0" y="113.5" />
-                </edge>
-                <edge source="Main" target="Menu">
-                  <point x="0.0" y="-28.0" />
-                  <point x="0.0" y="40.5" />
-                </edge>
-                <edge source="Operations" target="BreadthFirstPaths">
-                  <point x="-87.24999999999989" y="-257.5" />
-                  <point x="290.47916666666674" y="1283.0" />
-                  <point x="236.73579545454544" y="1283.0" />
-                  <point x="0.0" y="137.0" />
-                </edge>
-                <edge source="BreadthFirstPaths" target="Graph">
-                  <point x="92.66666666666669" y="-137.0" />
-                  <point x="329.4024621212121" y="969.0" />
-                  <point x="372.17575757575753" y="969.0" />
-                  <point x="-91.125" y="125.0" />
-                </edge>
-                <edge source="Bag" target="Bag.ListIterator">
-                  <point x="-98.75" y="-113.5" />
-                  <point x="364.55075757575753" y="319.0" />
-                  <point x="327.15" y="319.0" />
-                  <point x="-49.25" y="64.5" />
-                </edge>
-                <edge source="Graph" target="Operations">
-                  <point x="-30.375" y="125.0" />
-                  <point x="432.92575757575753" y="969.0" />
-                  <point x="463.75" y="969.0" />
-                  <point x="463.75" y="1283.0" />
-                  <point x="406.81250000000006" y="1283.0" />
-                  <point x="29.083333333333428" y="-257.5" />
-                </edge>
                 <edge source="Queue.ListIterator" target="Queue">
                   <point x="49.25" y="64.5" />
                   <point x="147.75" y="596.0" />
                   <point x="118.23579545454544" y="596.0" />
                   <point x="-59.25" y="-161.5" />
-                </edge>
-                <edge source="BreadthFirstPaths" target="Queue">
-                  <point x="-92.66666666666669" y="-137.0" />
-                  <point x="144.06912878787875" y="969.0" />
-                  <point x="118.23579545454544" y="969.0" />
-                  <point x="-59.25" y="161.5" />
-                </edge>
-                <edge source="Queue.ListIterator" target="Queue.Node">
-                  <point x="0.0" y="-64.5" />
-                  <point x="98.5" y="319.0" />
-                  <point x="130.10000000000002" y="319.0" />
-                  <point x="-56.79999999999998" y="40.0" />
-                </edge>
-                <edge source="Menu" target="Operations">
-                  <point x="-59.75" y="-40.5" />
-                  <point x="317.97916666666663" y="1853.0" />
-                  <point x="290.47916666666663" y="1853.0" />
-                  <point x="-87.25" y="257.5" />
                 </edge>
                 <edge source="Bag.Node" target="Bag">
                   <point x="56.80000000000007" y="40.0" />
@@ -247,51 +153,17 @@
                   <point x="562.0507575757575" y="309.0" />
                   <point x="98.74999999999999" y="-113.5" />
                 </edge>
-                <edge source="Bag" target="Bag.Node">
-                  <point x="59.249999999999986" y="-113.5" />
-                  <point x="522.5507575757575" y="319.0" />
-                  <point x="514.25" y="319.0" />
-                  <point x="514.25" y="100.0" />
-                  <point x="504.0857954545454" y="100.0" />
-                  <point x="28.399999999999977" y="40.0" />
-                </edge>
-                <edge source="Bag.ListIterator" target="Bag.Node">
-                  <point x="0.0" y="-64.5" />
-                  <point x="376.4" y="120.0" />
-                  <point x="418.88579545454536" y="120.0" />
-                  <point x="-56.80000000000001" y="40.0" />
-                </edge>
-                <edge source="Queue" target="Queue.ListIterator">
-                  <point x="-98.75" y="-161.5" />
-                  <point x="78.73579545454544" y="596.0" />
-                  <point x="49.25" y="596.0" />
-                  <point x="-49.25" y="64.5" />
-                </edge>
-                <edge source="Queue" target="Queue.Node">
-                  <point x="59.25" y="-161.5" />
-                  <point x="236.73579545454544" y="596.0" />
-                  <point x="244.83996212121212" y="596.0" />
-                  <point x="244.83996212121212" y="299.0" />
-                  <point x="215.3" y="299.0" />
-                  <point x="28.400000000000006" y="40.0" />
-                </edge>
-                <edge source="BreadthFirstPaths" target="Operations">
-                  <point x="92.66666666666669" y="137.0" />
-                  <point x="329.4024621212121" y="1293.0" />
-                  <point x="348.64583333333337" y="1293.0" />
-                  <point x="-29.083333333333258" y="-257.5" />
-                </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.9" x="-185.33333333333331" y="249.66666666666669" />
+              <settings layout="Hierarchic Group" zoom="0.9" x="-185.0" y="250.0" />
               <SelectedNodes>
                 <node>Main</node>
               </SelectedNodes>
               <Categories>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-                <Category>Constructors</Category>
                 <Category>Fields</Category>
                 <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
               </Categories>
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
@@ -307,16 +179,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friends" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Friends">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="117" column="9" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -358,10 +220,10 @@
       <find>Laura001</find>
       <find>GetFriendsListByID</find>
       <find>Laura</find>
-      <find>FilterAndSortData</find>
       <find>Ribeiro de Aquino</find>
-      <find>Lasarte</find>
       <find>hasP</find>
+      <find>Lasarte</find>
+      <find>FilterAndSortData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -385,12 +247,12 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BreathFirstPaths.java" />
         <option value="$PROJECT_DIR$/src/Queue.java" />
-        <option value="$PROJECT_DIR$/src/Graph.java" />
         <option value="$PROJECT_DIR$/src/BreadthFirstPaths.java" />
-        <option value="$PROJECT_DIR$/src/Menu.java" />
         <option value="$PROJECT_DIR$/residential.txt" />
         <option value="$PROJECT_DIR$/People" />
+        <option value="$PROJECT_DIR$/src/Graph.java" />
         <option value="$PROJECT_DIR$/src/Operations.java" />
+        <option value="$PROJECT_DIR$/src/Menu.java" />
       </list>
     </option>
   </component>
@@ -426,9 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -445,13 +305,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Diagrams" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final_exam_2017" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/domantas/Desktop/Erasmus/DSA/Social_Network/Friends" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="project.structure.last.edited" value="Project" />
@@ -608,12 +470,13 @@
       <workItem from="1515396419346" duration="2457000" />
       <workItem from="1515622817925" duration="5091000" />
       <workItem from="1515862913653" duration="3884000" />
-      <workItem from="1516051128593" duration="15520000" />
+      <workItem from="1516051128593" duration="17451000" />
+      <workItem from="1516199183060" duration="182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99088000" />
+    <option name="totallyTimeSpent" value="101201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,21 +493,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1664888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16808964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -654,8 +514,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,18 +596,9 @@
           <caret line="119" column="44" lean-forward="true" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#453#461#0" expanded="true" />
             <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#4361#4369#0" expanded="true" />
-            <element signature="e#6025#6034#0" expanded="true" />
-            <element signature="e#7013#7021#0" expanded="true" />
-            <element signature="e#7865#7873#0" expanded="true" />
-            <element signature="e#9201#9209#0" expanded="true" />
-            <element signature="e#9259#9267#0" expanded="true" />
-            <element signature="e#11227#11235#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,48 +627,14 @@
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#453#461#0" expanded="true" />
             <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#4361#4369#0" expanded="true" />
-            <element signature="e#6025#6034#0" expanded="true" />
-            <element signature="e#7013#7021#0" expanded="true" />
-            <element signature="e#7865#7873#0" expanded="true" />
-            <element signature="e#9201#9209#0" expanded="true" />
-            <element signature="e#9259#9267#0" expanded="true" />
-            <element signature="e#11227#11235#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Main</OriginalElement>
-          <nodes>
-            <node x="" y="">Menu</node>
-            <node x="" y="">Operations</node>
-            <node x="" y="">Main</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="634.0" y="322.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.uml" />
     <entry file="file://$PROJECT_DIR$/People">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -849,52 +667,14 @@
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#453#461#0" expanded="true" />
             <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#4361#4369#0" expanded="true" />
-            <element signature="e#6025#6034#0" expanded="true" />
-            <element signature="e#7013#7021#0" expanded="true" />
-            <element signature="e#7865#7873#0" expanded="true" />
-            <element signature="e#9201#9209#0" expanded="true" />
-            <element signature="e#9259#9267#0" expanded="true" />
-            <element signature="e#11227#11235#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Main</OriginalElement>
-          <nodes>
-            <node x="64.0" y="371.0">Menu</node>
-            <node x="83.5" y="501.0">Main</node>
-            <node x="0.0" y="0.0">Operations</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="278.0" />
-          <SelectedNodes>
-            <node>Menu</node>
-            <node>Main</node>
-            <node>Operations</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.uml" />
     <entry file="file://$PROJECT_DIR$/People">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -927,18 +707,9 @@
           <caret line="90" column="10" lean-forward="false" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#453#461#0" expanded="true" />
             <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#4361#4369#0" expanded="true" />
-            <element signature="e#6025#6034#0" expanded="true" />
-            <element signature="e#7013#7021#0" expanded="true" />
-            <element signature="e#7865#7873#0" expanded="true" />
-            <element signature="e#9201#9209#0" expanded="true" />
-            <element signature="e#9259#9267#0" expanded="true" />
-            <element signature="e#11227#11235#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -987,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,89 +768,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2027">
-          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Friends">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="117" column="9" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Main</OriginalElement>
-          <nodes>
-            <node x="" y="">Menu</node>
-            <node x="" y="">Operations</node>
-            <node x="" y="">Main</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="118.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.uml" />
     <entry file="uml://JAVA/Main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>Main</OriginalElement>
           <nodes>
-            <node x="404.6857954545454" y="0.0">Bag.Node</node>
             <node x="0.0" y="388.0">Queue.ListIterator</node>
+            <node x="404.6857954545454" y="0.0">Bag.Node</node>
             <node x="341.80075757575753" y="652.5">Graph</node>
             <node x="277.9" y="140.0">Bag.ListIterator</node>
             <node x="115.9" y="164.5">Queue.Node</node>
             <node x="344.80075757575753" y="339.0">Bag</node>
             <node x="97.73579545454544" y="989.0">BreadthFirstPaths</node>
             <node x="258.22916666666663" y="1878.0">Menu</node>
+            <node x="277.72916666666663" y="2009.0">Main</node>
             <node x="58.98579545454544" y="616.0">Queue</node>
             <node x="203.22916666666663" y="1313.0">Operations</node>
-            <node x="277.72916666666663" y="2009.0">Main</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="Operations" target="Graph">
-              <point x="87.25000000000006" y="-257.5" />
-              <point x="464.9791666666667" y="1293.0" />
-              <point x="474.75" y="1293.0" />
-              <point x="474.75" y="959.0" />
-              <point x="493.67575757575753" y="959.0" />
-              <point x="30.375" y="125.0" />
-            </edge>
             <edge source="Queue.Node" target="Queue">
               <point x="56.80000000000001" y="40.0" />
               <point x="243.70000000000002" y="289.0" />
@@ -1095,65 +810,11 @@
               <point x="404.05075757575753" y="319.0" />
               <point x="-59.25" y="-113.5" />
             </edge>
-            <edge source="Graph" target="Bag">
-              <point x="81.0" y="-125.0" />
-              <point x="544.3007575757575" y="596.0" />
-              <point x="542.3007575757575" y="596.0" />
-              <point x="79.0" y="113.5" />
-            </edge>
-            <edge source="Main" target="Menu">
-              <point x="0.0" y="-28.0" />
-              <point x="0.0" y="40.5" />
-            </edge>
-            <edge source="Operations" target="BreadthFirstPaths">
-              <point x="-87.24999999999989" y="-257.5" />
-              <point x="290.47916666666674" y="1283.0" />
-              <point x="236.73579545454544" y="1283.0" />
-              <point x="0.0" y="137.0" />
-            </edge>
-            <edge source="BreadthFirstPaths" target="Graph">
-              <point x="92.66666666666669" y="-137.0" />
-              <point x="329.4024621212121" y="969.0" />
-              <point x="372.17575757575753" y="969.0" />
-              <point x="-91.125" y="125.0" />
-            </edge>
-            <edge source="Bag" target="Bag.ListIterator">
-              <point x="-98.75" y="-113.5" />
-              <point x="364.55075757575753" y="319.0" />
-              <point x="327.15" y="319.0" />
-              <point x="-49.25" y="64.5" />
-            </edge>
-            <edge source="Graph" target="Operations">
-              <point x="-30.375" y="125.0" />
-              <point x="432.92575757575753" y="969.0" />
-              <point x="463.75" y="969.0" />
-              <point x="463.75" y="1283.0" />
-              <point x="406.81250000000006" y="1283.0" />
-              <point x="29.083333333333428" y="-257.5" />
-            </edge>
             <edge source="Queue.ListIterator" target="Queue">
               <point x="49.25" y="64.5" />
               <point x="147.75" y="596.0" />
               <point x="118.23579545454544" y="596.0" />
               <point x="-59.25" y="-161.5" />
-            </edge>
-            <edge source="BreadthFirstPaths" target="Queue">
-              <point x="-92.66666666666669" y="-137.0" />
-              <point x="144.06912878787875" y="969.0" />
-              <point x="118.23579545454544" y="969.0" />
-              <point x="-59.25" y="161.5" />
-            </edge>
-            <edge source="Queue.ListIterator" target="Queue.Node">
-              <point x="0.0" y="-64.5" />
-              <point x="98.5" y="319.0" />
-              <point x="130.10000000000002" y="319.0" />
-              <point x="-56.79999999999998" y="40.0" />
-            </edge>
-            <edge source="Menu" target="Operations">
-              <point x="-59.75" y="-40.5" />
-              <point x="317.97916666666663" y="1853.0" />
-              <point x="290.47916666666663" y="1853.0" />
-              <point x="-87.25" y="257.5" />
             </edge>
             <edge source="Bag.Node" target="Bag">
               <point x="56.80000000000007" y="40.0" />
@@ -1163,72 +824,20 @@
               <point x="562.0507575757575" y="309.0" />
               <point x="98.74999999999999" y="-113.5" />
             </edge>
-            <edge source="Bag" target="Bag.Node">
-              <point x="59.249999999999986" y="-113.5" />
-              <point x="522.5507575757575" y="319.0" />
-              <point x="514.25" y="319.0" />
-              <point x="514.25" y="100.0" />
-              <point x="504.0857954545454" y="100.0" />
-              <point x="28.399999999999977" y="40.0" />
-            </edge>
-            <edge source="Bag.ListIterator" target="Bag.Node">
-              <point x="0.0" y="-64.5" />
-              <point x="376.4" y="120.0" />
-              <point x="418.88579545454536" y="120.0" />
-              <point x="-56.80000000000001" y="40.0" />
-            </edge>
-            <edge source="Queue" target="Queue.ListIterator">
-              <point x="-98.75" y="-161.5" />
-              <point x="78.73579545454544" y="596.0" />
-              <point x="49.25" y="596.0" />
-              <point x="-49.25" y="64.5" />
-            </edge>
-            <edge source="Queue" target="Queue.Node">
-              <point x="59.25" y="-161.5" />
-              <point x="236.73579545454544" y="596.0" />
-              <point x="244.83996212121212" y="596.0" />
-              <point x="244.83996212121212" y="299.0" />
-              <point x="215.3" y="299.0" />
-              <point x="28.400000000000006" y="40.0" />
-            </edge>
-            <edge source="BreadthFirstPaths" target="Operations">
-              <point x="92.66666666666669" y="137.0" />
-              <point x="329.4024621212121" y="1293.0" />
-              <point x="348.64583333333337" y="1293.0" />
-              <point x="-29.083333333333258" y="-257.5" />
-            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="-185.33333333333331" y="249.66666666666669" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="-185.0" y="250.0" />
           <SelectedNodes>
             <node>Main</node>
           </SelectedNodes>
           <Categories>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
             <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,39 +849,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/People">
+    <entry file="file://$PROJECT_DIR$/src/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Operations.java">
+    <entry file="file://$PROJECT_DIR$/src/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="368" column="33" lean-forward="true" selection-start-line="368" selection-start-column="33" selection-end-line="368" selection-end-column="33" />
+        <state relative-caret-position="2664">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#453#461#0" expanded="true" />
-            <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#4361#4369#0" expanded="true" />
-            <element signature="e#6025#6034#0" expanded="true" />
-            <element signature="e#7013#7021#0" expanded="true" />
-            <element signature="e#7865#7873#0" expanded="true" />
-            <element signature="e#9201#9209#0" expanded="true" />
-            <element signature="e#9259#9267#0" expanded="true" />
-            <element signature="e#11227#11235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BreadthFirstPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
+        <state relative-caret-position="396">
           <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
@@ -1280,9 +879,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        <state relative-caret-position="1296">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3528">
+          <caret line="209" column="86" lean-forward="false" selection-start-line="209" selection-start-column="86" selection-end-line="209" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#add_friends#0;class#Operations#0" expanded="false" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="42" column="79" lean-forward="false" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
